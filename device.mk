@@ -26,6 +26,10 @@ PRODUCT_COPY_FILES := \
     device/asus/flo/fstab.flo:root/fstab.flo \
     device/asus/flo/init.flo.rc:root/init.flo.rc
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    bluetoothd
+
 PRODUCT_PACKAGES += \
 	camera.flo
 
